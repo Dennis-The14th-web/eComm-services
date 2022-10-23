@@ -89,6 +89,7 @@ const resolvers = {
       return { session: session.id };
     }
   },
+  
   Mutation: {
     addUser: async (parent, args) => {
       const user = await User.create(args);

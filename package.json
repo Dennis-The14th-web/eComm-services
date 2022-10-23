@@ -1,0 +1,22 @@
+{
+  "name": "ecomm-services",
+  "version": "1.0.0",
+  "description": "This is an eCommerce application built with graphQL web services",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis-The14th-web/eComm-services.git"
+  },
+  "author": "Dennis Itua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dennis-The14th-web/eComm-services/issues"
+  },
+  "homepage": "https://github.com/Dennis-The14th-web/eComm-services#readme",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
