@@ -123,7 +123,7 @@ db.once('open', async () => {
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
       image: 'wiper.webp',
       price: 7.99,
-      quantity: 6000
+      quantity: 1000
     }
   ]);
 
