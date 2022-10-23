@@ -28,7 +28,7 @@ app.get('*', (req, res) => {
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-
+//connect server with Apollo GraphQL
 const startApolloServer = async (typeDefs, resolvers) => {
     await server.start();
     server.applyMiddleware({ app });
